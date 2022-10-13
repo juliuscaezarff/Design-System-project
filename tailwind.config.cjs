@@ -1,10 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/**/*.tsx'
-  ],
+  content: ['./src/**/*.tsx'],
   theme: {
     extend: {
+      fontSize: {
+        xs: 14,
+        sm: 16,
+        md: 18,
+        lg: 20,
+        xl: 24,
+        '2xl': 32
+      },
+
       colors: {
         'gray-900': '#121214',
         'gray-800': '#282824',
@@ -18,7 +25,7 @@ module.exports = {
       fontFamily: {
         sans: 'Inter, sans-serif'
       }
-    },
+    }
   },
-  plugins: [],
+  plugins: []
 }
