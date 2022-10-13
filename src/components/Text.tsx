@@ -1,3 +1,5 @@
+import { clsx } from 'clsx'
+
 interface TextProps {
   size?: 'sm' | 'md' | 'ld';
 }
