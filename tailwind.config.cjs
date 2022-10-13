@@ -25,8 +25,10 @@ module.exports = {
         100: '#e1e1e6',
         },
 
-        'cyan-500': '#81d8f7',
-        'cyan-200': '#9BE1FB'
+        cyan: {
+        500: '#81d8f7',
+        200: '#9BE1FB'
+        }
       },
       fontFamily: {
         sans: 'Inter, sans-serif'
